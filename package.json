@@ -1,0 +1,18 @@
+{
+  "name": "download-today-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "download.js",
+  "scripts": {
+    "start": "node download"
+  },
+  "author": "Carlos Lima",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.9.0",
+    "config": "^1.24.0",
+    "fs-extra": "^2.0.0",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {}
+}
