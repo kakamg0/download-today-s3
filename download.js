@@ -1,13 +1,12 @@
 const AWS = require('aws-sdk')
 const fs = require('fs-extra')
-const moment = require('moment')
 const config = require('config')
 const aws = config.aws
 
 AWS.config = new AWS.Config(aws)
 
 const s3 = new AWS.S3()
-const today = moment().format('YYYY-MM-DD')
+const today = new Date().toISOString().slice(0, 10)
 
 const params = { 
   Bucket: config.tamarac_bucket,
