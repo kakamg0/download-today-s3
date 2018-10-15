@@ -13,3 +13,9 @@ To download the files run the command bellow
 ```sh
 node start
 ```
+
+You are also able to pass the prefix of the bucket as an argument like so
+
+```sh
+node start -- 2018-01-01 # This would download files in the folder 2018-01-01 of the bucket.
+```
