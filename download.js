@@ -6,7 +6,7 @@ const aws = config.aws
 AWS.config = new AWS.Config(aws)
 
 const s3 = new AWS.S3()
-const today = new Date().toISOString().slice(0, 10)
+const today = process.argv[2] || new Date().toISOString().slice(0, 10)
 
 const params = { 
   Bucket: config.tamarac_bucket,
