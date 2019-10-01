@@ -9,9 +9,8 @@
   "author": "Carlos Lima",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.9.0",
-    "config": "^1.24.0",
-    "fs-extra": "^2.0.0"
+    "aws-sdk": "^2.540.0",
+    "fs-extra": "^8.1.0"
   },
   "devDependencies": {}
 }
