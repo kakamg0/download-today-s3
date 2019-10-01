@@ -9,8 +9,6 @@ const aws = {
   secretAccessKey: args.shift()
 };
 
-console.log(today, bucket, aws)
-
 AWS.config = new AWS.Config(aws);
 const s3 = new AWS.S3();
 
